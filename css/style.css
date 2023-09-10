@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(227, 91, 157);
+}
+
+img {
+  background-color: #4687c7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 450 px;
+  height: 250px;
+}
+footer {
+  min-height: 200px;
+  background-color: rgba(198, 61, 61, 0.2);
+  text-align: left;
+}
+
+.btn {
+  color: rgb(38, 2, 40);
+  background-color: white;
+}
+
+.btn:hover {
+  color: rgb(182, 18, 111);
+  background-color: pink;
+}

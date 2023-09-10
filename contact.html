@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+
+<head>
+    <title>Huiswerk les 22|| Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        integrity="sha256-2TnSHycBDAm2wpZmgdi0z81kykGPJAkiUY+Wf97RbvY=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e55dbf">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mijn Pagina</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link activepage" href="index.html">Home</a>
+                    <a class="nav-link" href="overmij.html">Over Mij</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <article class="text-lg-start text-white p-4">
+        <h2 class="mb-3">Contact</h2>
+        <p>Voor vragen, suggesties of andere details kunt u contact met mij opnemen via het volgende formulier.</p>
+        <form class="mt-5" id="contact-form" name="contact-form" action="https://formspree.io/f/xknlbayd" method="POST">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="naam" name="Naam" class="form-control">
+                        <label for="naam" class="">Uw naam</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="e-mail" name="E-mail" class="form-control">
+                        <label for="e-mail" class="">Uw e-mailadres</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                        <textarea id="bericht" name="Bericht" rows="5" class="form-control md-textarea"></textarea>
+                        <label for="bericht">Uw bericht</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="text-end mb-5">
+            <a class="btn btn-primary">Verstuur</a>
+        </div>
+    </article>
+    </div>
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+            integrity="sha256-gOQJIa9+K/XdfAuBkg2ONAdw5EnQbokw/s2b8BqsRFg=" crossorigin="anonymous"></script>
+            <p>
+                Cristina Francu NHA Software Opleiding || 2023
+            </p>
+    </footer>
+</body>
+
+</html>
