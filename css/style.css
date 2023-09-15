@@ -1,14 +1,14 @@
 body {
-  background-color: rgb(223, 67, 142);
+  background-color: rgb(224, 176, 199);
 }
 
 img {
-  background-color: #010b16;
+  background-color: #18191a;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 8px;
-  width: 450 px;
-  height: 250px;
+  border-radius: 18px;
+  width: 150 px;
+  height: 130px;
 }
 footer {
   min-height: 200px;
